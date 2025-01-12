@@ -19,7 +19,7 @@ print("Olá, mundo!")`)
     setApiResponse(null)
     try {
       console.log('Enviando código para execução:', code) // Debug log
-      const response = await fetch('https://aprender-mais.vercel.app', {
+      const response = await fetch('http://localhost:5000/run', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
