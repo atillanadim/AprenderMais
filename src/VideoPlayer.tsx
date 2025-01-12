@@ -4,7 +4,7 @@ export default function VideoPlayer() {
   const [error, setError] = useState(false)
 
   // Using a placeholder video URL - replace with your actual video content
-  const videoUrl = "https://www.youtube.com/embed/CaQUxy_UiGA?si=GhHNhNSon0HCJ_uP"
+  const videoUrl = "https://www.youtube-nocookie.com/embed/eWRfhZUzrAc"
 
   return (
     <div className="relative aspect-video w-full overflow-hidden rounded-lg border bg-muted">
