@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Button } from "@/components/ui/button"
 import { Textarea } from "@/components/ui/textarea"
 import { useTheme } from "./theme-provider"
-import { Divide, Loader2 } from 'lucide-react'
+import { Loader2 } from 'lucide-react'
 
 
 export default function CodeEditor() {
